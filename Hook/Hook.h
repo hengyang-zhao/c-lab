@@ -2,7 +2,7 @@
 #define HOOK_H
 
 #include <type_traits>
-
+#include <utility>
 
 template<class Entity, class Peer=Entity>
 class Hook {
